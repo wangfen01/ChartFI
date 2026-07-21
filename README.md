@@ -1,5 +1,7 @@
 # ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models
 
+> 🎉 **News**: Our paper has been **accepted by IEEE VIS 2025**!
+
 Chart descriptions are essential for accessibility, cross-modal retrieval, and assisting readers in extracting insights from complex visualizations. As multimodal large language models (MLLMs) are increasingly adopted for automated chart description generation, a critical question arises: how faithfully and insightfully do these models actually describe charts?  Current benchmarks fall short on two fronts: existing datasets consist of simple, homogeneous charts paired with shallow, fact-enumerating descriptions; and prevailing metrics fail to capture the multi-faceted nature of description quality. To address these gaps, we present the Chart Faithfulness and Insightfulness Benchmark (ChartFI-Bench). We first summarize four dimensions that characterize high-quality chart descriptions: factual accuracy, salient feature emphasis, domain-informed guidance, and chart–text complementarity. Guided by these dimensions, we construct a high-quality benchmark comprising 896 chart--description pairs, which feature visually complex charts and semantically rich descriptions. Furthermore, we design four aligned evaluation metrics---Faithfulness, Coverage, Informativeness, and Acuity---to systematically assess the quality of descriptions across these dimensions. Experiments conducted on mainstream MLLMs demonstrate the effectiveness of the proposed framework and reveal common weaknesses among existing models.
 ![alt text](./Figs/dataset_construction.jpg)
 
@@ -45,10 +47,10 @@ Performance comparison across models on reference-based metrics and ChartFI.
 If you find that ChartInsighter helps your research, please consider citing it:
 
 ```
-@article{wang2025chartfi,
-  author={Wang, Fen and Shao, Zekai and Kang, qiman and Hu, Chunran and Zhang, zhixuan and Xie, Lexu and Liu, Chao and Chen, Siming},
-  journal={IEEE Transactions on Visualization and Computer Graphics}, 
-  title={ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models}, 
+@article{wang2026chartfi,
+  title={ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models},
+  author={Wang, Fen and Shao, Zekai and Kang, Qiman and Hu, Chunran and Zhang, Zhixuan and Xie, Lexu and Liu, Chao and Chen, Siming},
+  journal={arXiv preprint arXiv:2605.23694},
   year={2026}
-  }
+}
 ```
